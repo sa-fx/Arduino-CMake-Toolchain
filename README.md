@@ -2,11 +2,18 @@
 
 **Arduino CMake toolchain** is a CMake toolchain for cross-compiling CMake based projects for all Arduino compatible boards (AVR, ESP32 etc.). Of course, this means all the benefits of CMake for Arduino compilation, like using your favourite IDE, configuration checks (e.g. `try_compile`, `CheckTypeSize`), etc. This also brings the Arduino compilation to professional users, who are limited by the Arduino IDE compilation.
 
-## Note by technyon
+## Note by sa-fx
 
 This is a fork of 
 
+https://github.com/technyon/Arduino-CMake-Toolchain
+
+which itself is a fork of
+
 https://github.com/a9183756-gh/Arduino-CMake-Toolchain
+
+
+## Note by technyon
 
 The original projects seems to be not maintained anymore. As far as I have tested, it
 only works with the Arduino ESP32 core up to version 1.6. I've merged a few open
